@@ -2,6 +2,7 @@ const initialState = {
   details: {},
   isConnected: false,
   isInternetReachable: null,
+  data: '111111111'
 };
 
 const reducer = (state = initialState, action: any) => {

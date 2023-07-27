@@ -7,9 +7,7 @@ import Data from './src/App';
 function App(): JSX.Element {
   return (
     <Provider store={store}>
-      <View>
-        <Data />
-      </View>
+      <Data />
     </Provider>
   );
 }
